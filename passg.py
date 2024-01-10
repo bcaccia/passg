@@ -36,7 +36,6 @@ def cli(num_pass, length, upper, lower, num, special, extended, punct, quotes, d
     if extended:
         extended_ascii_characters = [chr(i) for i in range(128, 256)]
         value_pool.extend(string_to_chars(extended_ascii_characters))
-        
     if punct:
         value_pool.extend(string_to_chars(".,:;"))
     if quotes:
