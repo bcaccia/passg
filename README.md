@@ -5,18 +5,23 @@ A simple command line password generator.
 # Usage
 
 To install locally on your machine run:
+
 `pip install passg/`
 
 To uninstall run:
+
 `pip uninstall passg`
 
 Generate a password with a length of 20 characters that includes uppercase and lowercase letters, numbers, and special characters:
+
 `passg -l 20 -up -lo -n -s`
 
 Do the same but omit the letters ABCabc and the numbers 123:
+
 `passg -l 20 -up -lo -n -s -x "ABCabc123"`
 
 Display help:
+
 `passg`
 
 ```
