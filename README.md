@@ -4,7 +4,7 @@ A simple command line password generator.
 
 # Usage
 
-To install locally on your machine run:
+To install locally on your machine clone the repo and then run the following on the directory (this is not packaged for PyPI yet):
 
 `pip install passg/`
 
